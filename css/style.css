@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 20px;
+}
+
+
+@media(max-width:768px) {
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    nav ul li a {
+        padding: 0px;
+    }
+    
+    main {
+        margin-top: 220px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+     
+}
+
+
+.base {
+    border: 0px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+  
+    background-color: grey;
+    color: white;
+    
+    
+    
+}
+.aa{
+    color: white;
+}
+
+.lineaa {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.lineaaa {
+    background-color: black;
+    width: 80%;
+    height: 1px;
+    margin-bottom: 1px;
+    
+}
+
+.boto{
+   border-radius: 50%;
+   width: 40px;
+}
+
+.boto:hover{
+    background-color: grey;
+color: white;
+}
+
+.baseul {
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 30%;
+    list-style: none;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.consola {
+    border: 0px solid red;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+.info_consola {
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.boton_consola {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.boton2 {
+    background-color: rgb(16, 105, 177);
+    color: white;
+    width: 100px;
+    height: 40px;
+
+
+}
+
+.boton3 {
+    border: 0px solid rgb(16, 105, 177);
+    color: rgb(16, 105, 177);
+    width: 100px;
+    height: 40px;
+
+
+}
+
+.boton3:hover {
+    background-color: rgb(16, 105, 177);
+    color: white;
+}
+
+.espacio {
+    border: 0px solid;
+    width: 50px;
+    height: 50px;
+
+}
+
+.imagen_consola {
+    width: 10px;
+    height: 10px;
+
+
+}
+
+
+
+.text1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.top5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titu {
+    color: red;
+}
+
+.videopadre{
+  display: flex;
+  justify-content: center;
+}
+
+.video2 {
+
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 400px;
+    background-color: black;
+  
+   
+}
+
+.titi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tablaaa {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+th,
+td {
+    border: solid 1px;
+    padding: 5px;
+   
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+
+th:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+.foo {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sesionsomos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.lineaaa {
+    border: 1px solid;
+    gap: 15px;
+    width: 100%;
+}
+
+.fo_somos {
+    width: 50%;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.p_somos {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.section_contacto {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section_servi {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+li {
+    text-decoration: none;
+
+}
+
+.ulsevi {
+
+    list-style: none;
+}
+
+
+td:hover{
+    background-color: rgba(128, 128, 128, 0.489);}
+
+    .Map{
+        display: flex;
+        justify-content: center;
+    }
+
+    .foindex{
+        border: 1px solid;
+        width: 100%;
+        height: 30px;
+        background-color: gray;
+        color: white;
+    }
+
+.ppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foocontaca{
+    justify-content: center;
+          width: 50%;
+          height: 50%;
+          
+         
+}
+
+
+    .foocontac{
+        width: 50px;
+        height: 50px;
+        display: flex;
+       
+    }
+
+    
