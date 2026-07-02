@@ -352,11 +352,10 @@ td:hover{
 }
 
 
-    .foocontac{
-        width: 50px;
-        height: 50px;
-        display: flex;
-       
-    }
+.foocontac{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
 
     
